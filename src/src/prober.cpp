@@ -22,6 +22,7 @@
  * IN THE SOFTWARE.
  */
 
+#include <QDebug>
 #include <qmdnsengine/abstractserver.h>
 #include <qmdnsengine/dns.h>
 #include <qmdnsengine/message.h>
