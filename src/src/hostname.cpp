@@ -50,7 +50,7 @@ HostnamePrivate::HostnamePrivate(Hostname *hostname, AbstractServer *server)
     registrationTimer.setInterval(2 * 1000);
     registrationTimer.setSingleShot(true);
 
-    rebroadcastTimer.setInterval(30 * 60 * 1000);
+    rebroadcastTimer.setInterval(10 * 1000); // 10 seconds 
     rebroadcastTimer.setSingleShot(true);
 
     // Immediately assert the hostname
